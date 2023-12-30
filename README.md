@@ -35,7 +35,7 @@ Aim of this project is to develop a remote rehabilitation physiotherapy program 
 ## Scientific poster:
 <img src= "https://github.com/haandx/Graduation-project/assets/142608001/9dbc9b07-a476-400f-a3e9-e84992280b46" width = "500">
 
-## demo (Click to watch the video): 
+## demo (Click on logo to watch the video): 
 
 
 [![lGP](https://github.com/haandx/Graduation-project/assets/142608001/11975666-a8fc-4d46-8a18-37caf00a734d)](https://youtu.be/Vh7x3JBNJgM?si=ZheqjRTdjkppIukE)
