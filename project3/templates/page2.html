@@ -1,0 +1,89 @@
+        <div class="menu">
+            <link rel="stylesheet" href="{{ url_for('static', filename='css/page2.css') }}">
+                         <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='media/icon.png') }}">
+           
+        </div>
+        <div class="h-page">
+            <div class="content">
+              <div class="menu">
+              </div>
+              <div class="middle">
+                <div class="title1">
+                  <h1 class="name-1"> Your AI RITH </h1>
+                                 
+                  <p class="intro">
+                    (Real-Time Vision-Based Pose Estimation Algorithms for physical therapy RITH ) <br> <br>
+                    An artificial intelligence physical therapy trainer at home to <br>maintain your
+                     health from home.<br><br> We provide the Personal  RITH Trainer <br><br><br>
+                  </p>
+      
+                   <a href="{{ url_for('static', filename='media/arm.mp4') }}" type="video/mp4">
+                    
+                    <button class="go"><p class="let">Dimo RITH</p></button>
+                   </a>
+                   <div class="icon">
+                  </div>
+                </div>
+                <img
+                  class="img-1"
+                  src="{{ url_for('static', filename='media/new.png') }}"
+                  alt="RITH"
+                />
+              </div>
+            </div>
+            
+          </div>
+        <div class="group-1">
+            <div class="card-1">
+                <h2 class="asan-name-1">  <br>  Squat exercise</h2>
+                <video width="240" height="259" controls>
+                    <source src="{{ url_for('static', filename='media/squat.mp4') }}" type="video/mp4">                    <source src="squat.ogg" type="video/ogg">
+                </video>
+                <p class="asan-para-1"> 
+                    Strength exercise in which the trainee lowers their hips from a standing position and then stands back up.
+                  the hip and knee joints flex while the ankle joint dorsiflexes.
+                </p>
+                
+                <form action="{{ url_for('squat_feed') }}" method="GET">
+                    <button class="goo"><p class="let"> Start</p></button>
+                </form>
+            </div>
+
+            <div class="card-2">
+                <h2 class="asan-name-1"><br>           Arm raise exercise</h2>
+                <video width="240" height="259" controls>
+                    <source src="{{ url_for('static', filename='media/arm.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="asan-para-1">
+                    Simple exercise that targets the shoulder muscles and the muscles surrounding them.
+                    It can be done without any equipment and is a great way to strengthen your shoulders. 
+                   
+                </p>
+            
+               
+                <form action="{{ url_for('arm_raise_feed') }}" method="GET">
+                    <button class="goo"><p class="let"> Start</p></button>
+                </form>
+
+
+            </div>
+
+             <div class="card-3">
+                <h2 class="asan-name-1"><br>knee flexion exercise</h2>
+                <video width="240" height="259" controls>
+                  <source src="{{ url_for('static', filename='media/knee.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="asan-para-1">
+                Exercise that improve strength and help your knee respond quickly to any change in position. The result can be less stiffness, faster walking speed, and a lower risk for falling.
+                </p>
+                <form action="{{ url_for('knee_flexion_feed') }}" method="GET">
+                    <!-- Add a button to start the knee flexion exercise -->
+                    <button class="goo"><p class="let"> Start</p></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
