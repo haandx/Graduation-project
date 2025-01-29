@@ -1,4 +1,4 @@
-# Graduation-project (This project is not open source and its code is proprietary. The Code is set to be hidden to protect intellectual property and sensitive information. If you have any questions or inquiries, please contact haneenbinbshir@gmail.com.)
+# Graduation-project 
 ## ABSTRACT
 Rehabilitation programs are vital for the people that suffer injuries, The Covid-19 pandemic made it impossible for these people to follow such programs at healthcare centers, This study aims to develop a new solution for patients opting instead for a Rehabilitation in the Home RITH, Include a range of exercises and activities that can be easily performed at home, The ultimate goal of the project is to improve access to rehabilitation services and the project has the potential to make a significant impact on the field of rehabilitation medicine and to improve the lives of individuals with physical problems and their families.
 
