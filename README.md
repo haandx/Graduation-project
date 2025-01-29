@@ -23,6 +23,7 @@ Aim of this project is to develop a remote rehabilitation physiotherapy program 
 <img src= "https://github.com/haandx/Graduation-project/assets/142608001/368ed3a9-54ce-428c-899b-792fbaaaa44a" width = "500">
 <img src= "https://github.com/haandx/Graduation-project/assets/142608001/f3c240bb-0617-4d3a-9e29-bd17180be3f1" width = "500">
 <img src= "https://github.com/haandx/Graduation-project/assets/142608001/0051b394-8b1a-4d60-9fa0-470681650114" width = "500"> 
+<img src= "https://github.com/user-attachments/assets/27a8958f-2061-47dd-bfad-d9d561a8e9e3" width = "500"> 
 </div>
 
 ## System testing
